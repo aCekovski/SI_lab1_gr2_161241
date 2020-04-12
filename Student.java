@@ -2,8 +2,8 @@ class Student {
 	String index;
 	String firstName;
 	String lastName;
-	int []grades;
-	
+	Integer []grades;
+
 	//TODO constructor
 	public Student(String index, String firstName, String lastName) {
 		// TODO Auto-generated constructor stub
