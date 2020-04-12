@@ -34,9 +34,21 @@ class Student {
 
 	public double getAverage() {
 		//TODO
+		double Prosek = 0.0;
+		for(int i = 0; i < grades.length; i++) {
+		   Prosek += grades[i];
+		}
+	return (double) (Prosek/grades.length);
 	}
 
 	public int ECTSCredits() {
 		//TODO
+		int brojac = 0;
+		for(int i = 0; i < grades.length; i++) {
+		   if(grades[i] >= 6 && grades[i] <= 10){
+			brojac++;
+		   }
+		}
+           return 6 * brojac;
 	}
 }
