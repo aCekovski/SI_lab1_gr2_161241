@@ -52,3 +52,12 @@ class Student {
            return 6 * brojac;
 	}
 }
+
+class Faculty {
+  List<Student> list;
+  String name;
+
+  	public void addStudent(Student s){
+    		list.insertLast(s);
+	}
+}
